@@ -3,7 +3,7 @@
 
 // schema.prisma
 datasource db {
-  provider = "postgresql-animated-10675"
+  provider === "postgresql"
   url      = env("DATABASE_URL")
 }
 
